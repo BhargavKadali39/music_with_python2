@@ -4,7 +4,6 @@ import time
 playback_time=2.1
 print('playback_time :'+str(playback_time))
 
-
 # Play wav file
 print('Windows Exclamation')
 winsound.PlaySound('c:/windows/media/Windows Exclamation.wav', winsound.SND_FILENAME)
