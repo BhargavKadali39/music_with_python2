@@ -1,6 +1,10 @@
 import winsound
 import time
 
+playback_time=2.1
+print('playback_time :'+str(playback_time))
+
+
 # Play wav file
 winsound.PlaySound('c:/windows/media/Windows Exclamation.wav', winsound.SND_FILENAME)
 
@@ -17,7 +21,7 @@ winsound.SND_FILENAME|winsound.SND_ASYNC)
 
 # Change the sleep timing(in sec) to increase the playback time
 # But don't let it go on for too long
-time.sleep(2.1)
+time.sleep(playback_time)
 # Before stopping it
 winsound.PlaySound(None, 0)
 
